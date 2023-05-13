@@ -12,7 +12,7 @@ public class EjercicioN3VariablesConstantesTipos {
             int numero2;
             int suma;
             int edad;
-    String nombre = "Pablo";
+    String nombre = "Nico";
         // Constante
             final int NUMERO_3= 4;
         // Ingreso los valores a la variables numero1 y numero2
