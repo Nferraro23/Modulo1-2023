@@ -20,7 +20,7 @@ public class TrabajoPracticoSeguroAutomotor {
         int RT = 3000;
         
         int coberturaADICIONAL=0;
-        String coberturaT="";
+        String coberturas="";
         
         int total;
         
@@ -105,17 +105,17 @@ public class TrabajoPracticoSeguroAutomotor {
         switch(cobertura){
             case 0: JOptionPane.showMessageDialog(null,"Selecciono : Responsabilidad Civil");
             cobertura = RC;
-            coberturaT ="Responsabilidad Civil";
+            coberturas ="Responsabilidad Civil";
             break;
             
             case 1: JOptionPane.showMessageDialog(null,"Selecciono : Terceros Completo");
             cobertura = TC;
-            coberturaT ="Terceros Completo";
+            coberturas ="Terceros Completo";
             break;
             
             case 2: JOptionPane.showMessageDialog(null,"Selecciono : Riesgo Total");
             cobertura = RT;
-            coberturaT ="Riesgo Total";
+            coberturas ="Riesgo Total";
             break;
             
             default:      
@@ -167,7 +167,7 @@ public class TrabajoPracticoSeguroAutomotor {
             System.out.println("ANTIGUEDAD DEL VEHICULO :" + antig);
             System.out.println("--------------------------------------------");
             System.out.println("VALOR DE LA CUOTA :" + resultado);
-            System.out.println("TIPO DE COBERTURA :" + coberturaT);
+            System.out.println("TIPO DE COBERTURA :" + coberturas);
             System.out.println("VALOR DE COBERTURA :" + cobertura);
             System.out.println("VALOR DE ADICIONALES :" + coberturaADICIONAL );
             total = resultado + cobertura + coberturaADICIONAL;
@@ -178,7 +178,7 @@ public class TrabajoPracticoSeguroAutomotor {
             JOptionPane.showOptionDialog(null,
             "NOMBRE DEL CLIENTE :"+nombre+"\n APELLIDO DEL CLIENTE :"+apellido+"\n TELEFONO :"+telefono+"\n MAIL :"+mail+
                     "\n MARCA :"+marca+"\n MODELO :"+modelos+"\n DOMINIO :"+dominio+"\n ANTIGUEDAD DEL VEHICULO :"+antig+"\n VALOR DE LA CUOTA :"+resultado+
-                    "\n TIPO DE COBERTURA :"+coberturaT+"\n VALOR DE COBERTURA :"+cobertura+"\n ADICIONALES :"+coberturaADICIONAL+ "\n VALOR FINAL :"+total,
+                    "\n TIPO DE COBERTURA :"+coberturas+"\n VALOR DE COBERTURA :"+cobertura+"\n ADICIONALES :"+coberturaADICIONAL+ "\n VALOR FINAL :"+total,
             "Poliza",
             JOptionPane.YES_NO_CANCEL_OPTION,
             JOptionPane.QUESTION_MESSAGE,Icon2,
