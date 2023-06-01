@@ -1,15 +1,17 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package trabajo.practico.seguro.automotor;
 
-package com.mycompany.tpfinalsolo;
-
-import java.util.Arrays;
 import javax.swing.ImageIcon;
+import javax.swing.JComboBox;
 import javax.swing.JOptionPane;
-import java.util.ArrayList; 
 
+public class TrabajoPracticoSeguroAutomotor {
 
-public class TpFinalSolo {
-
-       int fecha=2023;
+    public static void main(String[] args) {    
+        int fecha=2023;
         
         int importeA = 500;
         int importeB = 1000;
